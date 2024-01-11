@@ -1,7 +1,7 @@
 #  Cell Fate Prediction with Deep Learning
 ![pic](palbo_cells.png)
 ## About
-This project applys multiple deep learning models to predict a cell-cycling status (CDK2 activity) of Palbociclib-treated cells from time-series nuclear morphology data. All data used in this project is from [Spenser Lab](https://www.colorado.edu/lab/spencerlab/) and may not be used without permission.
+This project applys multiple deep learning models to predict a cell-cycling status (CDK2 activity) of Palbociclib-treated cells from time-series nuclear morphology data. All data used in this project is from [Spencer Lab](https://www.colorado.edu/lab/spencerlab/) and may not be used without permission.
 ### Multi-layer Perceptron classifier ([NN.ipynb](https://github.com/FahsaiNak/DLPredSen/blob/main/NN.ipynb))
 The model uses 26 morphological features extracted by RegionProp package from Matlab. The input features are stored in the table along with their labels. Accuracy: 70.21%
 ### Convolutional neural networks ([CNN.ipynb](https://github.com/FahsaiNak/DLPredSen/blob/main/CNN.ipynb))
