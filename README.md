@@ -1,1 +1,1 @@
-# Application of deep learning models for cell fate prediction using nuclear morphology
+#  Cell fate prediction from nuclear morphology with deep learning
